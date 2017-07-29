@@ -9,6 +9,14 @@
   transition: all 2s;
 }
 
+.item .item-text {
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 40%;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+}
+
 .mobile-item {
   padding-top: 0.5em;
   height: 60px;
@@ -79,18 +87,10 @@
   }
 }
 
-.item-text {
-  text-decoration: none !important;
-}
-
-.item .item-text {
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 40%;
-  margin-top: 0.5em;
-  padding-top: 0.5em;
-}
-
 .icon {
   height: 50%
+}
+
+a {
+  text-decoration-line: none !important;
 }
