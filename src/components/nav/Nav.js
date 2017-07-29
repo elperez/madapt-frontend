@@ -56,6 +56,7 @@ class Nav extends Component {
         <NavLink exact activeClassName='active' to='/'>
           <div className="nav-header">
             <h1 className="nav-header-title">
+              <button onClick={this.props.toggleLanguage} className="language-btn">Toggle Language</button>
               <img className="image-banner" src={imgHeader} alt="Header Image" />
               mAdapt
             </h1>

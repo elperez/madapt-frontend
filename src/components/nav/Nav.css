@@ -36,3 +36,8 @@
   height: 50px;
   background-color: lightblue;
 }
+
+.language-btn {
+  float: right;
+  background-color: blue;
+}
